@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace _421_m7_lab
 {
-    public class Column: PageComponentIF, FrameComponentIF
+    public interface NovelComponentIF: NovelIF
     {
-
     }
 }

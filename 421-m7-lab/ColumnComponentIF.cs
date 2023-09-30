@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace _421_m7_lab
 {
-    public interface LineOfTextComponent
+    public interface ColumnComponentIF: PageComponentIF
     {
+
     }
 }

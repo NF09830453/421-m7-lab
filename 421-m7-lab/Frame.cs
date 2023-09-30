@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _421_m7_lab
 {
-    public class Frame: PageComponent, ColumnComponent
+    public class Frame: PageComponentIF, ColumnComponentIF
     {
 
     }
