@@ -1,4 +1,15 @@
-﻿using System;
+﻿/**
+* SWENG 421 Lab 7 
+* Composition to Hierarchy 
+* 
+* LineOfText
+* - contains characters
+* - inherits from abstract ContentElement class who implements interface PageElementIF
+* - implements marker interface ColumnComponentIF
+* 
+* Sunghee Choi, Yifan Liu
+*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

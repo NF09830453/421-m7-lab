@@ -1,4 +1,14 @@
-﻿using System;
+﻿/**
+* SWENG 421 Lab 7 
+* Composition to Hierarchy 
+* 
+* CompositePageElement
+* - abstract parent class for objects that hold content objects (Column and Frame)
+* - implements marker interface PageComponentIF
+* 
+* Sunghee Choi, Yifan Liu
+*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

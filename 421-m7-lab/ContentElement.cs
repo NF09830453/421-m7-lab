@@ -1,4 +1,14 @@
-﻿using System;
+﻿/**
+* SWENG 421 Lab 7 
+* Composition to Hierarchy 
+* 
+* ContentElement
+* - abstract parent class for content objects (LineOfText, Character, Image)
+* - implements marker interface PageComponentIF
+* 
+* Sunghee Choi, Yifan Liu
+*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

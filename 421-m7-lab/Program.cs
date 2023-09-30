@@ -1,6 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
-using _421_m7_lab;
+﻿/**
+* SWENG 421 Lab 7 
+* Composition to Hierarchy 
+* 
+* Runnable Class
+* 
+* Sunghee Choi, Yifan Liu
+*/
 
+
+// See https://aka.ms/new-console-template for more information
+using _421_m7_lab;
 
 Novel book1 = new Novel("The Stranger");
 Novel book2 = new Novel("To Kill a Mockingbird");
@@ -24,7 +33,7 @@ line.Add(new Character('G'));
 
 Writer w = new Writer(book1);
 Console.WriteLine("Test case 1: Column contains one LineOfText with five Characters \"SWENG\"");
-Console.WriteLine("Test case 1 output: ");
+Console.WriteLine("Calling writer to view novel... ");
 w.GetNovel().View();
 
 Console.WriteLine("\n ==== Adding a Frame ==== \n");
@@ -38,7 +47,8 @@ lineOfFrame.Add(new Character('4'));
 lineOfFrame.Add(new Character('2'));
 lineOfFrame.Add(new Character('1'));
 Console.WriteLine("Test case 2: Frame contains one Column which contains one LineOfText with three Characters \"421\"");
-Console.WriteLine("Test case 2 output: ");
+Console.WriteLine("Calling writer to view novel... ");
+// For the created Novel object, a writer calls the object’s view method to see the result as “SWENG421”
 w.GetNovel().View();
 
 Console.ReadLine(); // keep console window open

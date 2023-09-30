@@ -1,4 +1,14 @@
-﻿using System;
+﻿/**
+* SWENG 421 Lab 7 
+* Composition to Hierarchy 
+* 
+* Novel
+* - contains objects that implement NovelComponentIF (Page class)
+* - implements marker interface NovelIF
+* 
+* Sunghee Choi, Yifan Liu
+*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

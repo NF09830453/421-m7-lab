@@ -1,4 +1,15 @@
-﻿using System;
+﻿/**
+* SWENG 421 Lab 7 
+* Composition to Hierarchy 
+* 
+* Column
+* - contains line(s) of text or a frame object
+* - inherits from abstract CompositePageElement class who implements interface PageElementIF
+* - implements marker interface FrameComponentIF
+* 
+* Sunghee Choi, Yifan Liu
+*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
