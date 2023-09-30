@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _421_m7_lab
 {
-    public abstract class ContentElement
+    public abstract class ContentElement : PageComponentIF
     {
         private string title;
 
@@ -19,5 +19,6 @@ namespace _421_m7_lab
         public abstract void Delete();
         public abstract void View();
         public abstract void Edit();
+        public abstract void Add(Object element);
     }
 }

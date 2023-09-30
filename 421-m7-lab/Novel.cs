@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace _421_m7_lab
 {
@@ -49,6 +50,15 @@ namespace _421_m7_lab
         public void Edit()
         {
             Console.WriteLine("Editing " + title + "...");
+        }
+        public string GetTitle()
+        {
+            return this.title;
+        }
+
+        public void Add(object element)
+        {
+            novelComps.Add((NovelComponentIF)element);
         }
     }
 }

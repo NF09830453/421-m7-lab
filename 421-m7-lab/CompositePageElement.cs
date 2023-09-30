@@ -14,12 +14,11 @@ namespace _421_m7_lab
         {
             return title;
         }
-
-        public abstract void Add(Object element);
         public abstract void Save();
         public abstract NovelComponentIF Retrieve();
         public abstract void Delete();
         public abstract void View();
         public abstract void Edit();
+        public abstract void Add(Object element);
     }
 }

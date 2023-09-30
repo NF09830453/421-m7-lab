@@ -17,11 +17,6 @@ namespace _421_m7_lab
             return title;
         }
 
-        public void Add(Object element)
-        {
-            pageComps.Add((PageComponentIF)element);
-        }
-
         public void Save()
         {
             Console.WriteLine("page saved");
@@ -40,20 +35,25 @@ namespace _421_m7_lab
 
         public void View()
         {
-            foreach (NovelComponentIF element in pageComps)
+            foreach (NovelComponentIF comp in pageComps)
             {
-                if (element is Character)
+                if (comp is Character)
                 {
-                    Character el = (Character)element;
-                    Console.Write(el.GetContent());
+                    Character c = (Character)comp;
+                    Console.Write(c.GetContent());
                 }
-                element.View();
+                comp.View();
             }
         }
 
         public void Edit()
         {
             Console.WriteLine("page edit");
+        }
+
+        public void Add(Object element)
+        {
+            pageComps.Add((PageComponentIF)element);
         }
     }
 }

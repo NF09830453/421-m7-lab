@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "421-m7-lab/1.0.0": {
+        "runtime": {
+          "421-m7-lab.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "421-m7-lab/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

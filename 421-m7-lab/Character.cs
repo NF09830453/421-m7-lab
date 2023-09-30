@@ -27,28 +27,33 @@ namespace _421_m7_lab
 
         public override void Save()
         {
-            Console.WriteLine("Character saved");
+            Console.WriteLine("character save");
         }
 
         public override NovelComponentIF Retrieve()
         {
-            Console.WriteLine("Character retrieved");
+            Console.WriteLine("character retrieve");
             return null;
         }
 
         public override void Delete()
         {
-            Console.WriteLine("Character deleted");
+            Console.WriteLine("character delete");
         }
 
         public override void View()
         {
-            Console.WriteLine("Viewing Character...");
+            Console.WriteLine("character view");
         }
 
         public override void Edit()
         {
-            Console.WriteLine("Editing Character...");
+            Console.WriteLine("character edit");
+        }
+
+        public override void Add(Object element)
+        {
+            return;
         }
     }
 }

@@ -8,7 +8,7 @@ namespace _421_m7_lab
 {
     public class Column: CompositePageElement, FrameComponentIF
     {
-        private List<ColumnComponentIF> frameComps = new List<ColumnComponentIF>();
+        private List<ColumnComponentIF> colComps = new List<ColumnComponentIF>();
 
         public override void Save()
         {
@@ -28,7 +28,7 @@ namespace _421_m7_lab
 
         public override void View()
         {
-            foreach (NovelComponentIF comp in frameComps)
+            foreach (NovelComponentIF comp in colComps)
             {
                 if (comp is Character)
                 {
@@ -46,7 +46,7 @@ namespace _421_m7_lab
 
         public override void Add(Object element)
         {
-            frameComps.Add((ColumnComponentIF)element);
+            colComps.Add((ColumnComponentIF)element);
         }
     }
 }

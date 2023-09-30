@@ -8,7 +8,7 @@ namespace _421_m7_lab
 {
     public interface NovelIF : WriterNovelIF, EditorNovelIF
     {
-
-
+        string GetTitle();
+        void Add(Object element);
     }
 }
