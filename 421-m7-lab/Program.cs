@@ -12,7 +12,6 @@
 using _421_m7_lab;
 
 Novel book1 = new Novel("The Stranger");
-Novel book2 = new Novel("To Kill a Mockingbird");
 
 NovelComponentIF page = new Page();
 CompositePageElement col = new Column();
@@ -50,5 +49,29 @@ Console.WriteLine("Test case 2: Frame contains one Column which contains one Lin
 Console.WriteLine("Calling writer to view novel... ");
 // For the created Novel object, a writer calls the object’s view method to see the result as “SWENG421”
 w.GetNovel().View();
+
+
+// Admin
+Novel book2 = new Novel("To Kill a Mockingbird");
+Administrator admin = new Administrator(book2);
+NovelComponentIF book2Page = new Page();
+CompositePageElement book2Col = new Column();
+book2.Add(book2Page);
+book2.Add(book2Col);
+ContentElement line2 = new LineOfText();
+book2Col.Add(line2);
+
+line2.Add(new Character('T'));
+line2.Add(new Character('E'));
+line2.Add(new Character('S'));
+line2.Add(new Character('T'));
+Console.WriteLine("\n\n ==== Testing admin operations ==== ");
+Console.WriteLine("Calling admin to view novel... ");
+admin.GetNovel().View();
+Console.WriteLine("");
+admin.GetNovel().Retrieve();
+admin.GetNovel().Edit();
+admin.GetNovel().Save();
+admin.GetNovel().Delete();
 
 Console.ReadLine(); // keep console window open
