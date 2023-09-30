@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _421_m7_lab
 {
-    public class Character : ContentAbs, LineOfTextComponentIF
+    public class Character : ContentElement, LineOfTextComponentIF
     {
         private char content;
 

@@ -24,18 +24,18 @@ namespace _421_m7_lab
 
         public void Save()
         {
-            Console.WriteLine("Page Saved");
+            Console.WriteLine("page saved");
         }
 
         public NovelComponentIF Retrieve()
         {
-            Console.WriteLine("Page Retrieved");
+            Console.WriteLine("page retrieved");
             return null;
         }
 
         public void Delete()
         {
-            Console.WriteLine("Page Deleted");
+            Console.WriteLine("page deleted");
         }
 
         public void View()
@@ -53,7 +53,7 @@ namespace _421_m7_lab
 
         public void Edit()
         {
-            Console.WriteLine("Page Edit");
+            Console.WriteLine("page edit");
         }
     }
 }
