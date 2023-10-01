@@ -34,6 +34,7 @@ Writer w = new Writer(book1);
 Console.WriteLine("Test case 1: Column contains one LineOfText with five Characters \"SWENG\"");
 Console.WriteLine("Calling writer to view novel... ");
 w.GetNovel().View();
+Console.WriteLine("\n"+w.GetNovel().ToString());
 
 Console.WriteLine("\n ==== Adding a Frame ==== \n");
 CompositePageElement frame = new Frame();
@@ -45,6 +46,7 @@ columnInsideFrame.Add(lineOfFrame);
 lineOfFrame.Add(new Character('4'));
 lineOfFrame.Add(new Character('2'));
 lineOfFrame.Add(new Character('1'));
+
 Console.WriteLine("Test case 2: Frame contains one Column which contains one LineOfText with three Characters \"421\"");
 Console.WriteLine("Calling writer to view novel... ");
 // For the created Novel object, a writer calls the object’s view method to see the result as “SWENG421”

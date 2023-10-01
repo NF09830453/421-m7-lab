@@ -18,12 +18,6 @@ namespace _421_m7_lab
 {
     public abstract class CompositePageElement : PageComponentIF
     {
-        private string title;
-
-        public string GetTitle()
-        {
-            return title;
-        }
         public abstract void Save();
         public abstract NovelComponentIF Retrieve();
         public abstract void Delete();

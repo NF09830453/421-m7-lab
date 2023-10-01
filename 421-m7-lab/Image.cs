@@ -17,7 +17,7 @@ using System.Threading.Tasks;
 
 namespace _421_m7_lab
 {
-    public class Image : ContentElement, FrameComponentIF, ColumnComponentIF
+    public class Image : ContentElement, FrameComponentIF, LineOfTextComponentIF
     {
         public override void Save()
         {

@@ -61,14 +61,16 @@ namespace _421_m7_lab
         {
             Console.WriteLine("Editing " + title + "...");
         }
-        public string GetTitle()
-        {
-            return this.title;
-        }
 
         public void Add(object element)
         {
             novelComps.Add((NovelComponentIF)element);
+        }
+
+
+        public override string ToString()
+        {
+            return "The title of this work is: " + title + " (class Name has been hidden).";
         }
     }
 }

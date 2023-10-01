@@ -20,13 +20,6 @@ namespace _421_m7_lab
     {
         private List<PageComponentIF> pageComps = new List<PageComponentIF>();
 
-        private string title;
-
-        public string GetTitle()
-        {
-            return title;
-        }
-
         public void Save()
         {
             Console.WriteLine("page saved");

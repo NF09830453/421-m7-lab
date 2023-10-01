@@ -12,3 +12,17 @@ C:\SWENG-421-LABS\M7-Lab\421-m7-lab\421-m7-lab\obj\Debug\net6.0\refint\421-m7-la
 C:\SWENG-421-LABS\M7-Lab\421-m7-lab\421-m7-lab\obj\Debug\net6.0\421-m7-lab.pdb
 C:\SWENG-421-LABS\M7-Lab\421-m7-lab\421-m7-lab\obj\Debug\net6.0\421-m7-lab.genruntimeconfig.cache
 C:\SWENG-421-LABS\M7-Lab\421-m7-lab\421-m7-lab\obj\Debug\net6.0\ref\421-m7-lab.dll
+D:\SWENG 421Projects\421-m7-lab\421-m7-lab\bin\Debug\net6.0\421-m7-lab.exe
+D:\SWENG 421Projects\421-m7-lab\421-m7-lab\bin\Debug\net6.0\421-m7-lab.deps.json
+D:\SWENG 421Projects\421-m7-lab\421-m7-lab\bin\Debug\net6.0\421-m7-lab.runtimeconfig.json
+D:\SWENG 421Projects\421-m7-lab\421-m7-lab\bin\Debug\net6.0\421-m7-lab.dll
+D:\SWENG 421Projects\421-m7-lab\421-m7-lab\bin\Debug\net6.0\421-m7-lab.pdb
+D:\SWENG 421Projects\421-m7-lab\421-m7-lab\obj\Debug\net6.0\421-m7-lab.GeneratedMSBuildEditorConfig.editorconfig
+D:\SWENG 421Projects\421-m7-lab\421-m7-lab\obj\Debug\net6.0\421-m7-lab.AssemblyInfoInputs.cache
+D:\SWENG 421Projects\421-m7-lab\421-m7-lab\obj\Debug\net6.0\421-m7-lab.AssemblyInfo.cs
+D:\SWENG 421Projects\421-m7-lab\421-m7-lab\obj\Debug\net6.0\421-m7-lab.csproj.CoreCompileInputs.cache
+D:\SWENG 421Projects\421-m7-lab\421-m7-lab\obj\Debug\net6.0\421-m7-lab.dll
+D:\SWENG 421Projects\421-m7-lab\421-m7-lab\obj\Debug\net6.0\refint\421-m7-lab.dll
+D:\SWENG 421Projects\421-m7-lab\421-m7-lab\obj\Debug\net6.0\421-m7-lab.pdb
+D:\SWENG 421Projects\421-m7-lab\421-m7-lab\obj\Debug\net6.0\421-m7-lab.genruntimeconfig.cache
+D:\SWENG 421Projects\421-m7-lab\421-m7-lab\obj\Debug\net6.0\ref\421-m7-lab.dll
